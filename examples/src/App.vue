@@ -2,6 +2,7 @@
   <div id="app">
     <WCalendar class="calendar"
                :isMultipleChoice="false"
+               :isSinglePoint="true"
                :pointMap="pointMap"
                :restrictDate="restrictDate"
                :Month="month"
