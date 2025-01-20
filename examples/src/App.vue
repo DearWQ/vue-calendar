@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <WCalendar class="calendar"
-               :isMultipleChoice="false"
+               :isMultipleChoice="true"
                :isSinglePoint="true"
                :pointMap="pointMap"
                :restrictDate="restrictDate"
